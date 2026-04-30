@@ -23,6 +23,8 @@ Main Code
 ****************************/
 console.log ("Hi" + userName)
 console.log ("As of" +  currentYear  + "you are" + userAge + "years old")
+
+console.log ("In 10 years you will be", userAge + 10 + "years old" )
 console.log ("You have" + pocketMoney + "dollars")
 
 
