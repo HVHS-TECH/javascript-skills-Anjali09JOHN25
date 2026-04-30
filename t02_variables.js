@@ -14,6 +14,9 @@ console.log (userName);
 var userAge = 15;
 console.log (userAge);
 
+var currentYear = 2026;
+console.log (currentYear);
+
 /****************************
 Main Code
 ****************************/
