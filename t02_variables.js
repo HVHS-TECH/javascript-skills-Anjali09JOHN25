@@ -8,6 +8,12 @@ console.log("Hello, my name is Anjali")
 var pocketMoney = 3;
 console.log (pocketMoney);
 
+var userName = Anjali;
+console.log (userName);
+
+var userAge = 15;
+console.log (userAge);
+
 /****************************
 Main Code
 ****************************/
