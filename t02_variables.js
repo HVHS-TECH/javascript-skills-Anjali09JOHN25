@@ -20,9 +20,9 @@ console.log (currentYear);
 /****************************
 Main Code
 ****************************/
-console.log ("Hi + "userName")
-
-
+console.log ("Hi" + userName)
+console.log ("As of" +  currentYear  + "you are" + userAge + "years old")
+console.log ("You have" + pocketMoney + "dollars")
 
 
 /****************************
