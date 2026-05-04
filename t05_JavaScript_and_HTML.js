@@ -7,6 +7,10 @@ console.log("Hello, my name is Anjali")
 
 const OUTPUT = document.getElementById("JavaScriptOutput");
 OUTPUT.innerHTML = "<h2>Added by JavaScript</h2>";
+OUTPUT.innerHTML = "<p>Hello " + userName + "</p>";
+OUTPUT.innerHTML = "<p>Second Paragraph line.</p>";
+OUTPUT.innerHTML = "<p>Third Paragraph line.</p>";
+
 
 
 // Variables
