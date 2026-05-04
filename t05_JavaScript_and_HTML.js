@@ -5,14 +5,6 @@ Introduction to JavaScript
 console.log("Running t05_JavaScript_and_HTML.js")
 console.log("Hello, my name is Anjali")
 
-const OUTPUT = document.getElementById("JavaScriptOutput");
-OUTPUT.innerHTML = "<h2>Added by JavaScript</h2>";
-OUTPUT.innerHTML = "<p>Hello" + userName + "</p>";
-OUTPUT.innerHTML = "<p> JavaScript and HTML </p>";
-OUTPUT.innerHTML = "<p>Third Paragraph line.</p>";
-
-
-
 // Variables
 var pocketMoney = 4;
 console.log (pocketMoney);
@@ -40,4 +32,9 @@ console.log ("Then you get 3 dollars, now you have", pocketMoney + 3 +"dollars")
 /****************************
 Functions
 ****************************/
+const OUTPUT = document.getElementById("JavaScriptOutput");
+OUTPUT.innerHTML = "<h2>Added by JavaScript</h2>";
+OUTPUT.innerHTML = "<p>Hello" + userName + "</p>";
+OUTPUT.innerHTML = "<p> JavaScript and HTML </p>";
+OUTPUT.innerHTML = "<p>Third Paragraph line.</p>";
 
