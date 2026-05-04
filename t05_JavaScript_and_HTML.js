@@ -5,6 +5,10 @@ Introduction to JavaScript
 console.log("Running t05_JavaScript_and_HTML.js")
 console.log("Hello, my name is Anjali")
 
+const OUTPUT = document.getElementById("JavaScriptOutput");
+OUTPUT.innerHTML = "<h2>Added by JavaScript</h2>";
+
+
 // Variables
 var pocketMoney = 4;
 console.log (pocketMoney);
