@@ -27,6 +27,7 @@ OUTPUT.innerHTML = "<h2>Added by JavaScript</h2>";
 OUTPUT.innerHTML += "<p>Hello " + userName + "</p>";
 OUTPUT.innerHTML += "<p>As of " + currentYear + "you are " + userAge + "years old </p>";
 OUTPUT.innerHTML += "<p> You have" + pocketMoney + "dollars</p>";
+OUTPUT.innerHTML += "<img src='' alt='A cute dog'>";
 
 
 console.log ("Hi" + userName)
