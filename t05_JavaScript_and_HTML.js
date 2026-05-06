@@ -24,9 +24,9 @@ console.log (currentYear);
 Main Code
 ****************************/
 OUTPUT.innerHTML = "<h2>Added by JavaScript</h2>";
-OUTPUT.innerHTML = "<p>Hello" + userName + "</p>";
-OUTPUT.innerHTML = "<p>As of" +  currentYear  + "you are" + userAge + "years old</p>";
-OUTPUT.innerHTML = "<p>In 10 years you will be", userAge + 10 + "years old</p>";
+OUTPUT.innerHTML = "<p>Hello", + userName + "</p>";
+OUTPUT.innerHTML = "<p>As of", +  currentYear  + "you are" + userAge + "years old</p>";
+OUTPUT.innerHTML = "<p>In 10 years you will be" + userAge + 10 + "years old</p>";
 
 console.log ("Hi" + userName)
 console.log ("As of" +  currentYear  + "you are" + userAge + "years old")
