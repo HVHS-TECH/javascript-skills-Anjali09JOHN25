@@ -24,13 +24,13 @@ console.log (currentYear);
 Main Code
 ****************************/
 OUTPUT.innerHTML = "<h2>Added by JavaScript</h2>";
-OUTPUT.innerHTML = "<p>Hello", + userName + "</p>";
-OUTPUT.innerHTML = "<p>As of", +  currentYear  + "you are" + userAge + "years old</p>";
+OUTPUT.innerHTML = "<p>Hello" + userName + "</p>";
+OUTPUT.innerHTML = "<p>As of" +  currentYear  + "you are" + userAge + "years old</p>";
 OUTPUT.innerHTML = "<p>In 10 years you will be" + userAge + 10 + "years old</p>";
 
 console.log ("Hi" + userName)
 console.log ("As of" +  currentYear  + "you are" + userAge + "years old")
-console.log ("In 10 years you will be", userAge + 10 + "years old" )
+console.log ("In 10 years you will be", userAge + '10'  + "years old" )
 console.log ("You have" + pocketMoney + "dollars")
 console.log ("You spend half of your money, now you have", pocketMoney / 2 +"dollars")
 console.log ("Then you get 3 dollars, now you have", pocketMoney + 3 +"dollars")
