@@ -2,7 +2,7 @@
 /****************************
 Introduction to JavaScript
 ****************************/
-console.log("Running t05_JavaScript_and_HTML.js")
+console.log("Running t06_functions.js")
 console.log("Hello, my name is Anjali")
 
 const OUTPUT = document.getElementById("JavaScriptOutput");
@@ -27,11 +27,12 @@ function welcome(){
   OUTPUT.innerHTML += "<p>Welcome to the shop</p>";
 }
 
+welcome()
 
 /****************************
 Main Code
 ****************************/
-welcome()
+
 OUTPUT.innerHTML = "<h2>Added by JavaScript</h2>";
 OUTPUT.innerHTML += "<p>Hello " + userName + "</p>";
 OUTPUT.innerHTML += "<p>As of " + currentYear + "you are " + userAge + "years old </p>";
