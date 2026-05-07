@@ -33,7 +33,7 @@ welcome()
 Main Code
 ****************************/
 
-OUTPUT.innerHTML = "<h2>Added by JavaScript</h2>";
+OUTPUT.innerHTML += "<h2>Added by JavaScript</h2>";
 OUTPUT.innerHTML += "<p>Hello " + userName + "</p>";
 OUTPUT.innerHTML += "<p>As of " + currentYear + "you are " + userAge + "years old </p>";
 OUTPUT.innerHTML += "<p> You have" + pocketMoney + "dollars</p>";
