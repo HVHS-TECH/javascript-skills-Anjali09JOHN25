@@ -28,8 +28,9 @@ function welcome(){
 }
 
 function displayWelcome(_food, _price){
-  OUTPUT.innerHTML += "<p>Item: "+_food+"</p>";
-  OUTPUT.innerHTML += "<p>Price: "+_price+" years old</p>";
+  OUTPUT.innerHTML += "<p>Chocolate bar: "+_food+"</p>";
+  OUTPUT.innerHTML += "<p>Chips: "+_price+" years old</p>";
+   OUTPUT.innerHTML += "<p>Drink: "+_price+" years old</p>";
 }
 
 
