@@ -29,15 +29,16 @@ function welcome(){
 
 function displayWelcome(_food, _price){
   OUTPUT.innerHTML += "<p>Chocolate bar: "+_food+"</p>";
-  OUTPUT.innerHTML += "<p>Chips: "+_price+" years old</p>";
-   OUTPUT.innerHTML += "<p>Drink: "+_price+" years old</p>";
+  OUTPUT.innerHTML += "<p>Chips: "+_price+" </p>";
+   OUTPUT.innerHTML += "<p>Drink:$ "+_price+"</p>";
 }
 
 
 welcome()
 
-displayWelcome("$4", 16);
-displayWelcome("Mr Bob", 99);
+displayWelcome("Chocolate bar", 4);
+displayWelcome("Chips", 3);
+displayWelcome("Drink", 2.50);
 
 /****************************
 Main Code
