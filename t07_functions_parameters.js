@@ -36,7 +36,7 @@ function displayWelcome(_food, _price){
 
 welcome()
 
-displayWelcome("Ms Alice", 16);
+displayWelcome("$4", 16);
 displayWelcome("Mr Bob", 99);
 
 /****************************
