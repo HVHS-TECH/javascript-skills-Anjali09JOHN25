@@ -43,9 +43,6 @@ function getFormInput(){
 
 welcome()
 
-
-
-welcome()
 /****************************
 Main Code
 ****************************/
