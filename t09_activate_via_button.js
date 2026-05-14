@@ -31,7 +31,9 @@ function welcome(){
 welcome()
 
 function (){
-  JavaScriptOutput.innerHTML += "<p>Welcome to the shop</p>";
+  JavaScriptOutput.innerHTML
+JavaScriptOutput.innerHTML
+answer = 
 }
 
 
