@@ -23,6 +23,13 @@ console.log (currentYear);
 /****************************
 Functions
 ****************************/
+function start (){
+OUTPUT.innerHTML
+OUTPUT.innerHTML
+answer = currentYear - userAge;
+OUTPUT.innerHTML
+}
+
 function welcome(){
   OUTPUT.innerHTML += "<p>Welcome to the shop</p>";
 }
@@ -30,12 +37,6 @@ function welcome(){
 
 welcome()
 
-function start (){
-OUTPUT.innerHTML
-OUTPUT.innerHTML
-answer = currentYear - userAge;
-OUTPUT.innerHTML
-}
 
 
 welcome()
