@@ -30,6 +30,12 @@ function welcome(){
 
 welcome()
 
+function (){
+  JavaScriptOutput.innerHTML += "<p>Welcome to the shop</p>";
+}
+
+
+welcome()
 /****************************
 Main Code
 ****************************/
