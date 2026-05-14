@@ -30,10 +30,11 @@ function welcome(){
 
 welcome()
 
-function (){
-  JavaScriptOutput.innerHTML
-JavaScriptOutput.innerHTML
-answer = 
+function start (){
+OUTPUT.innerHTML
+OUTPUT.innerHTML
+answer = currentYear - userAge;
+OUTPUT.innerHTML
 }
 
 
