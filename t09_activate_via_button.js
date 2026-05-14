@@ -28,7 +28,7 @@ OUTPUT.innerHTML
 OUTPUT.innerHTML
 answer = currentYear - userAge;
 OUTPUT.innerHTML
-}
+
 
 function welcome(){
   OUTPUT.innerHTML += "<p>Welcome to the shop</p>";
@@ -57,7 +57,7 @@ console.log ("In 10 years you will be", userAge + '10'  + "years old" )
 console.log ("You have" + pocketMoney + "dollars")
 console.log ("You spend half of your money, now you have", pocketMoney / 2 +"dollars")
 console.log ("Then you get 3 dollars, now you have", pocketMoney + 3 +"dollars")
-
+}
 
 /****************************
 Functions
