@@ -26,15 +26,15 @@ Functions
 function getFormInput(){
   const NAME_FIELD = document.getElementById("nameField");
   let userName = NAME_FIELD.value;
-  OUTPUT.innerHTML = "<p>Your name is "+userName+"</p>";
+  OUTPUT.innerHTML += "<p>Your name is "+userName+"</p>";
 
   const AGE_FIELD = document.getElementById("ageField");
   let userAge = Number(AGE_FIELD.value);
-   OUTPUT.innerHTML = "<p>Your age is "+userAge+"</p>";
+   OUTPUT.innerHTML += "<p>Your age is "+userAge+"</p>";
   
    const MONEY_FIELD = document.getElementById("moneyField");
    let pocketMoney = Number(MONEY_FIELD.value);
-   OUTPUT.innerHTML = "<p>Your pocket money is "+pocketMoney+"</p>";
+   OUTPUT.innerHTML += "<p>Your pocket money is "+pocketMoney+"</p>";
 }
 
 function start (){
