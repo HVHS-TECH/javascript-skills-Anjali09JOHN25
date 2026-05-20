@@ -59,10 +59,12 @@ chocolate()
 
 if(pocketMoney >=4) {
     console.log ("You CAN afford a chocolate bar")
+    OUTPUT.innerHTML += "<h2>You CAN afford a chocolate bar</h2>";
 }
 
 if(pocketMoney <4) {
     console.log ("You CAN'T afford a chocolate bar")
+      OUTPUT.innerHTML += "<h2>You CAN'T afford a chocolate bar</h2>";
 }
 
 /****************************
