@@ -49,7 +49,7 @@ function welcome(){
 }
 
 function chocolate(){
-  OUTPUT.innerHTML += "<p>Chocolate bar costs $4</p>";
+  OUTPUT.innerHTML += "<p>Chocolate bars costs $4</p>";
 }
 
 
