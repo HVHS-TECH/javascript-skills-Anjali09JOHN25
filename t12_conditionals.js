@@ -53,8 +53,7 @@ function chocolate(){
 }
 
 function calculateChange(_price){
-    let change = 
-
+    let change = pocketMoney - _price;
 }
 
 
