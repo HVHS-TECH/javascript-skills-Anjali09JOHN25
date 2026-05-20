@@ -20,6 +20,7 @@ console.log (userAge);
 var currentYear = 2026;
 console.log (currentYear);
 
+
 /****************************
 Functions
 ****************************/
