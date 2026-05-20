@@ -21,11 +21,26 @@
 
   <p><br><br><i>Copy your HTML from the last task and keep building.</i><br><br><br><br></p>
 
-  <div id="spaceForJavaScriptOutput">
+  <button onclick ="start()">Start</button>
+  <div id="JavaScriptOutput">
 
     The output of your script will go here.
 
   </div>
+<form onsubmit="return false;">
+    <label for= "formName">Name:</label>
+  <input type="text" id="nameField">
+  <p></p>
+  <form onsubmit="return false;">
+    <label for= "formName">Age:</label>
+  <input type="text" id="ageField">
+  <p></p>
+<form onsubmit="return false;">
+  <label for= "formName">Pocket money:</label>
+  <input type="text" id="moneyField">
+<p></p>
+  <input type="submit" onClick=getFormInput()>
+</form>
 
 
   <script src="../t13_functions_return.js"></script>

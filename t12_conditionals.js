@@ -20,6 +20,8 @@ console.log (userAge);
 var currentYear = 2026;
 console.log (currentYear);
 
+var pocketMoney = 4;
+console.log (pocketMoney);
 
 /****************************
 Functions
@@ -52,11 +54,6 @@ function welcome(){
 function chocolate(){
   OUTPUT.innerHTML += "<p>Chocolate bars costs $4</p>";
 }
-
-function calculateChange(_price){
-    let change = pocketMoney - _price;
-}
-
 
 
 welcome()
