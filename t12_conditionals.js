@@ -76,15 +76,7 @@ console.log ("You spend half of your money, now you have", pocketMoney / 2 +"dol
 console.log ("Then you get 3 dollars, now you have", pocketMoney + 3 +"dollars")
 }
 
-if(pocketMoney >=4) {
-    console.log ("You CAN afford a chocolate bar")
-    OUTPUT.innerHTML += "<p>You CAN afford a chocolate bar</p>";
-}
 
-if(pocketMoney <4) {
-    console.log ("You CAN'T afford a chocolate bar")
-    OUTPUT.innerHTML += "<p>You CAN'T afford a chocolate bar</p>";
-}
 /****************************
 Functions
 ****************************/
