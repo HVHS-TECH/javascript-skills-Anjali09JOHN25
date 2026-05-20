@@ -57,15 +57,6 @@ function chocolate(){
 welcome()
 chocolate()
 
-if(pocketMoney >=4) {
-    console.log ("You CAN afford a chocolate bar")
-    OUTPUT.innerHTML += "<p>You CAN afford a chocolate bar</p>";
-}
-
-if(pocketMoney <4) {
-    console.log ("You CAN'T afford a chocolate bar")
-    OUTPUT.innerHTML += "<p>You CAN'T afford a chocolate bar</p>";
-}
 /****************************
 Main Code
 ****************************/
@@ -83,6 +74,16 @@ console.log ("In 10 years you will be", userAge + '10'  + "years old" )
 console.log ("You have" + pocketMoney + "dollars")
 console.log ("You spend half of your money, now you have", pocketMoney / 2 +"dollars")
 console.log ("Then you get 3 dollars, now you have", pocketMoney + 3 +"dollars")
+}
+
+if(pocketMoney >=4) {
+    console.log ("You CAN afford a chocolate bar")
+    OUTPUT.innerHTML += "<p>You CAN afford a chocolate bar</p>";
+}
+
+if(pocketMoney <4) {
+    console.log ("You CAN'T afford a chocolate bar")
+    OUTPUT.innerHTML += "<p>You CAN'T afford a chocolate bar</p>";
 }
 /****************************
 Functions
