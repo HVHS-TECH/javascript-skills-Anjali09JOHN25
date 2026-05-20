@@ -52,7 +52,10 @@ function chocolate(){
   OUTPUT.innerHTML += "<p>Chocolate bars costs $4</p>";
 }
 
-function calculateChange
+function calculateChange(_price){
+    let change = 
+
+}
 
 
 
