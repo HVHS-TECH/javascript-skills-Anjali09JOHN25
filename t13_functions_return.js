@@ -23,7 +23,6 @@ console.log (currentYear);
 var pocketMoney = 4;
 console.log (pocketMoney);
 
-var change = calculateChange (_money, _price)
 
 /****************************
 Functions
@@ -42,7 +41,7 @@ function getFormInput(){
    OUTPUT.innerHTML += "<p>Your pocket money is "+pocketMoney+"</p>";
 }
 
-function calculateChange(_price){
+function calculateChange(_pocketMoney){
 
 }
 
