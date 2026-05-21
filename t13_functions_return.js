@@ -42,7 +42,7 @@ function getFormInput(){
 }
 
 function calculateChange(_pocketMoney, _change){
-
+  let change = _pocketMoney - 4
 }
 
 function start (){
