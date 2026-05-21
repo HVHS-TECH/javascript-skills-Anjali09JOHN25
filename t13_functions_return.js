@@ -40,6 +40,10 @@ function getFormInput(){
    OUTPUT.innerHTML += "<p>Your pocket money is "+pocketMoney+"</p>";
 }
 
+function calculateChange(){
+
+}
+
 function start (){
   OUTPUT.innerHTML
   OUTPUT.innerHTML
