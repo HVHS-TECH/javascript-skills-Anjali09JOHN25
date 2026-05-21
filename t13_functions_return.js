@@ -41,7 +41,7 @@ function getFormInput(){
    OUTPUT.innerHTML += "<p>Your pocket money is "+pocketMoney+"</p>";
 }
 
-function calculateChange(_pocketMoney){
+function calculateChange(_pocketMoney, _change){
 
 }
 
