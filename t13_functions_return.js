@@ -50,9 +50,6 @@ function calculateChange(_price, _change){
 }
 } 
 
-calculateChange (price, pocketMoney);
-
-
 function start (){
   OUTPUT.innerHTML
   OUTPUT.innerHTML
@@ -70,6 +67,7 @@ function chocolate(){
 
 welcome()
 chocolate()
+calculateChange(price, pocketMoney)
 
 if(pocketMoney >=4) {
     console.log ("You can afford a chocolate bar")
