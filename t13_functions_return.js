@@ -49,6 +49,7 @@ function calculateChange(_price, _change){
   OUTPUT.innerHTML += <p>You will get $" +change+ "change</p>
 }
 } 
+
 calculateChange (price, pocketMoney);
 
 
@@ -66,7 +67,6 @@ function welcome(){
 function chocolate(){
   OUTPUT.innerHTML += "<p>Chocolate bars costs $4</p>";
 }
-
 
 welcome()
 chocolate()
