@@ -50,7 +50,7 @@ function start (){
   OUTPUT.innerHTML
 
 function calculateChange(_price, _change){
-  let change = (_price - 4)
+  let change = (pocketMoney - _price)
   if (change >= 0){
   console.log("You will get $" +change+ "change");
   OUTPUT.innerHTML += <p> You will get $" +change+ "change</p>
