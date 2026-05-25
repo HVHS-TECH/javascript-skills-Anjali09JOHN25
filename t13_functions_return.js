@@ -23,8 +23,6 @@ console.log (currentYear);
 var pocketMoney = 4;
 console.log (pocketMoney);
 
-let price = 4;
-let change = 
 
 /****************************
 Functions
