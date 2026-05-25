@@ -68,13 +68,10 @@ function chocolate(){
 welcome()
 chocolate()
 calculateChange(price, pocketMoney)
-
 if(pocketMoney >=4) {
     console.log ("You can afford a chocolate bar")
     OUTPUT.innerHTML += "<p>You can afford a chocolate bar</p>";
-}
-
-if(pocketMoney <4) {
+} else {
     console.log ("You can't afford a chocolate bar")
       OUTPUT.innerHTML += "<p>You can't afford a chocolate bar</p>";
 }
