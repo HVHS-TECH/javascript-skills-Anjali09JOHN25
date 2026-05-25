@@ -52,7 +52,7 @@ function calculateChange(_price, _change){
   let change = (_price - 4)
   if (change >= 0){
   console.log("You will get $" +change+ "change");
-  OUTPUT.innerHTML += <p>You will get $" +change+ "change</p>
+  OUTPUT.innerHTML += <p> You will get $" +change+ "change</p>
 }
 } 
 
