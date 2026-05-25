@@ -43,6 +43,16 @@ function getFormInput(){
    OUTPUT.innerHTML += "<p>Your pocket money is "+pocketMoney+"</p>";
 }
 
+function calculateChange(_price, _change){
+  let change = pocketMoney - _price;
+  return change;
+  if (change >= 0){
+  console.log("You will get $" + change + "change");
+  OUTPUT.innerHTML += "<p> You will get $" +change+ "change</p>"
+  
+}
+} 
+
 function start() {
   OUTPUT.innerHTML
   OUTPUT.innerHTML
@@ -88,11 +98,3 @@ console.log ("You spend half of your money, now you have", pocketMoney / 2 +"dol
 console.log ("Then you get 3 dollars, now you have", pocketMoney + 3 +"dollars")
 }
 
-function calculateChange(_price, _change){
-  let change = pocketMoney - _price;
-  if (change >= 0){
-  console.log("You will get $" + change + "change");
-  OUTPUT.innerHTML += "<p> You will get $" +change+ "change</p>"
-  return change;
-}
-} 
