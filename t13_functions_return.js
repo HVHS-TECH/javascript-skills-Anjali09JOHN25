@@ -42,6 +42,12 @@ function getFormInput(){
    OUTPUT.innerHTML += "<p>Your pocket money is "+pocketMoney+"</p>";
 }
 
+function start (){
+  OUTPUT.innerHTML
+  OUTPUT.innerHTML
+  answer = currentYear - userAge;
+  OUTPUT.innerHTML
+
 function calculateChange(_price, _change){
   let change = (_price - 4)
   if (change >= 0){
@@ -49,13 +55,6 @@ function calculateChange(_price, _change){
   OUTPUT.innerHTML += <p>You will get $" +change+ "change</p>
 }
 } 
-
-function start (){
-  OUTPUT.innerHTML
-  OUTPUT.innerHTML
-  answer = currentYear - userAge;
-  OUTPUT.innerHTML
-
 
 function welcome(){
   OUTPUT.innerHTML += "<p>Welcome to the shop</p>";
