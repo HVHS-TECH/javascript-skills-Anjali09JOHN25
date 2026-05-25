@@ -44,11 +44,11 @@ function getFormInput(){
 }
 
 function calculateChange(_price, _change){
-  let change = pocketMoney - _price;
+  change = pocketMoney - _price;
   return change;
   if (change >= 0){
   console.log("You will get $" + change + "change");
-  OUTPUT.innerHTML += "<p> You will get $" +change+ "change</p>"
+  OUTPUT.innerHTML += "<p> You will get $" +change+ "change</p>";
   
 }
 } 
