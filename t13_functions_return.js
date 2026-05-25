@@ -54,6 +54,7 @@ function calculateChange(_price, _change){
   if (change >= 0){
   console.log("You will get $" + change + "change");
   OUTPUT.innerHTML += "<p> You will get $" +change+ "change</p>"
+  return change;
 }
 } 
 
