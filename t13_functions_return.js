@@ -43,7 +43,7 @@ function getFormInput(){
    OUTPUT.innerHTML += "<p>Your pocket money is "+pocketMoney+"</p>";
 }
 
-function start(){
+function start() {
   OUTPUT.innerHTML
   OUTPUT.innerHTML
   answer = currentYear - userAge;
