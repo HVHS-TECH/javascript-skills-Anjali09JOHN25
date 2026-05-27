@@ -25,8 +25,7 @@ console.log (pocketMoney);
 Functions
 ****************************/
 let ratingArray = ["You loath chocolate", "Chocolate is meh", "Chocolate is pretty good", "chocolate is pretty good ", "Chocolate is the best thing EVER!!!!"];
-OUTPUT.innerHTML = ratingArray;
-ratingArray = CHOOSE_FIELD.value;
+let choice ratingArray = CHOOSE_FIELD.value;
 OUTPUT.innerHTML = "You chose: "+ratingArray[choice]+"<br>";
 
 function getFormInput(){
