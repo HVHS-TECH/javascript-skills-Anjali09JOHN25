@@ -77,7 +77,7 @@ if(pocketMoney >=4) {
 let ratingArray = ["You loath chocolate", "Chocolate is meh", "Chocolate is pretty good", "chocolate is pretty good ", "Chocolate is the best thing EVER!!!!"];
 OUTPUT.innerHTML = ratingArray;
 let choice = CHOOSE_FIELD.value;
-OUTPUT.innerHTML = "You chose: "+classArray[choice]+"<br>";
+OUTPUT.innerHTML = "You chose: "+ratingArray[choice]+"<br>";
 
 /****************************
 Main Code
