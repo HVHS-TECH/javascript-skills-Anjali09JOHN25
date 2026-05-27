@@ -24,6 +24,11 @@ console.log (pocketMoney);
 /****************************
 Functions
 ****************************/
+let ratingArray = ["You loath chocolate", "Chocolate is meh", "Chocolate is pretty good", "chocolate is pretty good ", "Chocolate is the best thing EVER!!!!"];
+OUTPUT.innerHTML = ratingArray;
+ratingArray = CHOOSE_FIELD.value;
+OUTPUT.innerHTML = "You chose: "+ratingArray[choice]+"<br>";
+
 function getFormInput(){
   const NAME_FIELD = document.getElementById("nameField");
   userName = NAME_FIELD.value;
@@ -73,11 +78,6 @@ if(pocketMoney >=4) {
     console.log ("You can't afford a chocolate bar")
       OUTPUT.innerHTML += "<p>You can't afford a chocolate bar</p>";
 }
-
-let ratingArray = ["You loath chocolate", "Chocolate is meh", "Chocolate is pretty good", "chocolate is pretty good ", "Chocolate is the best thing EVER!!!!"];
-OUTPUT.innerHTML = ratingArray;
-let choice = CHOOSE_FIELD.value;
-OUTPUT.innerHTML = "You chose: "+ratingArray[choice]+"<br>";
 
 /****************************
 Main Code
