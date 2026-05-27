@@ -74,6 +74,8 @@ if(pocketMoney >=4) {
       OUTPUT.innerHTML += "<p>You can't afford a chocolate bar</p>";
 }
 
+let classArray = ["Alice", "Bob", "Kaia", "Olivia", "Aroha", "Josh"];
+OUTPUT.innerHTML = classArray;
 /****************************
 Main Code
 ****************************/
