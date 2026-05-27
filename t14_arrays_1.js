@@ -26,7 +26,7 @@ Functions
 ****************************/
 let ratingArray = ["You loath chocolate", "Chocolate is meh", "Chocolate is pretty good", "chocolate is pretty good ", "Chocolate is the best thing EVER!!!!"];
 let choice = CHOOSE_FIELD.value;
-OUTPUT.innerHTML = "You chose: "+ratingArray[choice]+"<br>";
+OUTPUT.innerHTML = "You chose:"+ratingArray[choice]+"<br>";
 
 function getFormInput(){
   const NAME_FIELD = document.getElementById("nameField");
