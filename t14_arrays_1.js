@@ -74,8 +74,8 @@ if(pocketMoney >=4) {
       OUTPUT.innerHTML += "<p>You can't afford a chocolate bar</p>";
 }
 
-let RatingArray = ["You loath chocolate", "Chocolate is meh", "Chocolate is pretty good", "chocolate is pretty ", "Aroha", "Josh"];
-OUTPUT.innerHTML = classArray;
+let ratingArray = ["You loath chocolate", "Chocolate is meh", "Chocolate is pretty good", "chocolate is pretty good ", "Chocolate is the best thing EVER!!!!"];
+OUTPUT.innerHTML = ratingArray;
 /****************************
 Main Code
 ****************************/
