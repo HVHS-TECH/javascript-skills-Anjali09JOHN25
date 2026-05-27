@@ -25,6 +25,7 @@ let ratingArray = ["You loath chocolate", "Chocolate is meh", "Chocolate is pret
 /****************************
 Functions
 ****************************/
+
 let choice = CHOOSE_FIELD.value;
 OUTPUT.innerHTML = "You chose:"+ratingArray[choice]+"<br>";
 
