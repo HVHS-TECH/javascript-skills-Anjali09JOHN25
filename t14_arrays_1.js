@@ -25,9 +25,16 @@ let ratingArray = ["You loath chocolate", "Chocolate is meh", "Chocolate is pret
 /****************************
 Functions
 ****************************/
+function rating(){
+  OUTPUT.innerHTML += "<p>On a scale of 0-3 how much do you like chocolate</p>";
+}
+rating()
 
-let choice = CHOOSE_FIELD.value;
-OUTPUT.innerHTML = "You chose:"+ratingArray[choice]+"<br>";
+function welcome(){
+  OUTPUT.innerHTML += "<p>Welcome to the shop</p>";
+}
+
+welcome()
 
 function getFormInput(){
   const NAME_FIELD = document.getElementById("nameField");
@@ -41,7 +48,14 @@ function getFormInput(){
    const MONEY_FIELD = document.getElementById("moneyField");
    pocketMoney = Number(MONEY_FIELD.value);
    OUTPUT.innerHTML += "<p>Your pocket money is "+pocketMoney+"</p>";
+
+   const CHOOSE_FIELD = document.getElementById("chooseField");
+choice = CHOOSE_FIELD.value;
+ 
+OUTPUT.innerHTML = "You chose:"+ratingArray[choice]+"<br>";
+
 }
+
 
 function calculateChange(_price, _change){
   change = pocketMoney - _price;
@@ -60,15 +74,12 @@ function start() {
   OUTPUT.innerHTML
 
 
-function welcome(){
-  OUTPUT.innerHTML += "<p>Welcome to the shop</p>";
-}
-
 function chocolate(){
   OUTPUT.innerHTML += "<p>Chocolate bars costs $4</p>";
 }
 
-welcome()
+
+
 chocolate()
 calculateChange(4, pocketMoney)
 if(pocketMoney >=4) {
